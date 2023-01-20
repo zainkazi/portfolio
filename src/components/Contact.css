@@ -1,0 +1,25 @@
+.contact {
+  text-align: center;
+}
+
+.contact-form > div {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-field {
+  border: 2px solid black;
+  margin: 25px;
+  width: 40%;
+}
+
+.contact-name {
+  margin: 25px;
+  font-size: 20px;
+  width: 20%;
+  height: 40px;
+}
+
+.contact-message {
+  height: 250px;
+}

@@ -1,0 +1,18 @@
+.skill {
+}
+
+.progress-container {
+  border: 5px solid black;
+  width: 50%;
+}
+
+.skill-progress {
+  height: 40px;
+  width: 70%;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.skill-progress:hover {
+  opacity: 1;
+}

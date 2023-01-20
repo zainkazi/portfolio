@@ -1,0 +1,27 @@
+.navbar {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar > div {
+  font-size: 1.1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+}
+
+.navbar > div:hover {
+  font-weight: 500;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  color: black;
+  cursor: default;
+  background: #f2994a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f2c94c,
+    #f2994a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2c94c, #f2994a);
+}

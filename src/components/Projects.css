@@ -1,0 +1,21 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.single-project {
+  border: 2px solid black;
+  margin: 30px;
+  width: 300px;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-title {
+  margin-left: 10px;
+  margin-right: 10px;
+}
